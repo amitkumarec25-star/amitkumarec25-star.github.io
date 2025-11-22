@@ -35,12 +35,11 @@
         border-radius: 5px;
     }
   </style>
-
 </head>
 
 <body class="bg-gray-50 text-slate-800 antialiased">
 
-  <!-- Header -->
+  <!-- HEADER -->
   <header class="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="h-16 flex items-center justify-between">
@@ -76,13 +75,13 @@
     </div>
   </header>
 
-  <!-- HERO SECTION WITH 5-IMAGE SLIDER -->
+  <!-- HERO SECTION WITH IMAGE SLIDER -->
   <section class="relative pt-24 pb-20 bg-gray-50" id="hero-text">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
       <div class="grid lg:grid-cols-2 gap-10 items-center">
 
-        <!-- LEFT HERO TEXT -->
+        <!-- TEXT -->
         <div>
           <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight leading-tight text-gray-900">
             <span class="block">Powering the</span>
@@ -94,25 +93,19 @@
           </p>
 
           <div class="mt-10 flex space-x-4">
-            <a href="#solutions" class="inline-flex items-center justify-center px-8 py-3 text-white bg-green-600 rounded-xl">
-              Explore Solutions
-            </a>
-            <a href="#contact" class="inline-flex items-center justify-center px-8 py-3 border-2 border-green-600 text-green-600 rounded-xl hover:bg-green-50">
-              Get a Quote
-            </a>
+            <a href="#solutions" class="inline-flex items-center justify-center px-8 py-3 text-white bg-green-600 rounded-xl">Explore Solutions</a>
+            <a href="#contact" class="inline-flex items-center justify-center px-8 py-3 border-2 border-green-600 text-green-600 rounded-xl hover:bg-green-50">Get a Quote</a>
           </div>
         </div>
 
-        <!-- RIGHT HERO IMAGE SLIDER -->
+        <!-- SLIDER -->
         <div class="relative w-full h-80 overflow-hidden rounded-2xl shadow-lg">
           <div id="heroSlider" class="absolute inset-0 w-full h-full">
-
             <img src="res/slide1.png" class="slider-img absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-700">
             <img src="res/slide2.png" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700">
             <img src="res/slide3.png" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700">
             <img src="res/slide4.png" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700">
             <img src="res/slide5.png" class="slider-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700">
-
           </div>
         </div>
 
@@ -120,9 +113,7 @@
     </div>
   </section>
 
-  <!-- REST OF YOUR ORIGINAL CONTENT CONTINUES BELOW (unchanged) -->
-
-  <!-- Solutions -->
+  <!-- SOLUTIONS SECTION -->
   <section id="solutions" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center reveal">
@@ -133,29 +124,186 @@
       <div class="mt-12 grid md:grid-cols-2 gap-8">
         <div class="p-8 bg-gray-50 rounded-2xl shadow-sm reveal">
           <h3 class="text-2xl font-bold text-green-700">EV Mobility Batteries</h3>
-          <p class="mt-3 text-slate-700">24V / 36V / 48V / 60V / 72V systems...</p>
+          <p class="mt-3 text-slate-700">24V / 36V / 48V / 60V / 72V systems for e-scooters, e-bikes, loaders and electric vehicles.</p>
         </div>
+
         <div class="p-8 bg-gray-50 rounded-2xl shadow-sm reveal">
           <h3 class="text-2xl font-bold text-green-700">Solar & Backup ESS</h3>
-          <p class="mt-3 text-slate-700">Lithium replacements for lead-acid...</p>
+          <p class="mt-3 text-slate-700">Lithium replacements for lead-acid: 12.8V, 24V & 48V home inverters and commercial backup storage.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- The rest of your HTML remains EXACTLY the same... -->
-  <!-- I am keeping everything intact from Products → Footer -->
-  <!-- (Not repeating here to save space, but your full file includes all sections unchanged.) -->
+  <!-- PRODUCTS SECTION -->
+  <section id="products" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-  <!-- FOOTER + SCRIPTS -->
+      <div class="text-center mb-12 reveal">
+        <h2 class="text-3xl sm:text-4xl font-extrabold">Featured Products</h2>
+        <p class="mt-3 text-lg text-slate-600">High-performance lithium batteries built with safety and reliability at the core.</p>
+      </div>
 
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition reveal">
+          <img src="res/pdt1.png" class="w-full h-48 object-cover rounded-lg" />
+          <h3 class="mt-4 text-xl font-semibold">Lithium EV Battery 48V</h3>
+          <p class="text-slate-600 mt-2">Designed for e-scooters, cargo loaders & delivery vehicles.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition reveal">
+          <img src="res/pdt2.png" class="w-full h-48 object-cover rounded-lg" />
+          <h3 class="mt-4 text-xl font-semibold">Lithium Solar Battery 12.8V</h3>
+          <p class="text-slate-600 mt-2">Perfect for home inverters and solar applications.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition reveal">
+          <img src="res/pdt3.png" class="w-full h-48 object-cover rounded-lg" />
+          <h3 class="mt-4 text-xl font-semibold">Lithium ESS 51.2V</h3>
+          <p class="text-slate-600 mt-2">High-capacity storage for backup and commercial use.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- QUALITY SECTION -->
+  <section id="quality" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center reveal">
+        <h2 class="text-3xl sm:text-4xl font-extrabold">Why Choose Lithon Energy?</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+        <div class="p-8 bg-gray-50 rounded-2xl shadow reveal">
+          <h3 class="text-xl font-bold">Certified Grade Cells</h3>
+          <p class="mt-2 text-slate-700">A-grade LFP and NMC cells with 2000+ cycle life.</p>
+        </div>
+
+        <div class="p-8 bg-gray-50 rounded-2xl shadow reveal">
+          <h3 class="text-xl font-bold">Smart BMS Protection</h3>
+          <p class="mt-2 text-slate-700">Over/under voltage, short-circuit, balancing & thermal monitoring.</p>
+        </div>
+
+        <div class="p-8 bg-gray-50 rounded-2xl shadow reveal">
+          <h3 class="text-xl font-bold">Custom OEM Manufacturing</h3>
+          <p class="mt-2 text-slate-700">Tailored battery designs for EV & ESS companies.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROCESS SECTION -->
+  <section id="process" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center reveal">
+        <h2 class="text-3xl sm:text-4xl font-extrabold">Our Manufacturing Process</h2>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-8 mt-12">
+
+        <div class="p-6 bg-white rounded-xl shadow reveal">Cell Testing</div>
+        <div class="p-6 bg-white rounded-xl shadow reveal">Module Assembly</div>
+        <div class="p-6 bg-white rounded-xl shadow reveal">BMS Integration</div>
+        <div class="p-6 bg-white rounded-xl shadow reveal">QC & Packing</div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center reveal">
+        <h2 class="text-3xl sm:text-4xl font-extrabold">Gallery</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mt-12">
+
+        <img src="res/g1.png" class="rounded-xl shadow reveal" />
+        <img src="res/g2.png" class="rounded-xl shadow reveal" />
+        <img src="res/g3.png" class="rounded-xl shadow reveal" />
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-center reveal">Frequently Asked Questions</h2>
+
+      <div class="mt-12 space-y-6">
+
+        <div class="bg-white p-5 rounded-xl shadow reveal">
+          <h3 class="font-semibold text-lg">What is the lifetime of your batteries?</h3>
+          <p class="text-slate-600 mt-2">Our LFP batteries last 2000–3500 cycles depending on load profile.</p>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl shadow reveal">
+          <h3 class="font-semibold text-lg">Do you offer OEM manufacturing?</h3>
+          <p class="text-slate-600 mt-2">Yes, we design custom packs for EV and ESS companies.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
   <footer id="contact" class="bg-slate-950 text-white pt-16 pb-10">
-    <!-- (Your full footer content remains intact) -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid md:grid-cols-3 gap-12">
+
+        <div>
+          <img src="res/logof.png" class="w-32" />
+          <p class="mt-4 text-slate-300 text-sm">High-performance lithium battery manufacturing for EV & solar energy storage.</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Reach Us</h3>
+          <p class="text-slate-300 text-sm">📍 Ahmedabad, Gujarat, India</p>
+          <p class="text-slate-300 text-sm mt-1">📞 +91 98765 43210</p>
+          <p class="text-slate-300 text-sm mt-1">📧 contact@lithonenergy.in</p>
+        </div>
+
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+          <ul class="space-y-2 text-slate-300 text-sm">
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#quality">Why Us</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-slate-800 mt-10 pt-6 text-center text-slate-400 text-sm">
+        © <span id="year"></span> Lithon Energy. All Rights Reserved.
+      </div>
+
+    </div>
   </footer>
 
   <!-- JS SCRIPTS -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
     const menuBtn = document.getElementById('menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
     menuBtn && menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
